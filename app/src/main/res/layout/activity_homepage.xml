@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Homepage">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        app:lottie_rawRes="@raw/waiting"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:id="@+id/wait"
+        android:layout_toRightOf="@+id/wait1"
+        android:layout_marginStart="10dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click here to check layout of recycler view"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Linear Layout"
+        android:textColor="@color/black"
+        android:backgroundTint="#8A69C5"
+        android:id="@+id/btn"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grid Layout"
+        android:textColor="@color/black"
+        android:backgroundTint="#8A69C5"
+        android:id="@+id/btn1"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Staggered Layouts"
+        android:textColor="@color/black"
+        android:backgroundTint="#8A69C5"
+        android:id="@+id/btn2"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login Page"
+        android:textColor="@color/black"
+        android:backgroundTint="#8A69C5"
+        android:id="@+id/btn3"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Firebase"
+        android:textColor="@color/black"
+        android:backgroundTint="#8A69C5"
+        android:id="@+id/btn4"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Api"
+        android:textColor="@color/black"
+        android:backgroundTint="#8A69C5"
+        android:id="@+id/btn5"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Movie Api"
+        android:textColor="@color/black"
+        android:backgroundTint="#8A69C5"
+        android:id="@+id/btn6"
+        />
+
+</LinearLayout>
+</ScrollView>
